@@ -24,3 +24,25 @@ from sklearn.pipeline import Pipeline
 
 ![3-Logo](Images/NLP-texts-pipeline.png)
 
+# Yelp Project 
+
+![4-Logo](Images/NLP-yelp.png)
+
+EDA
+
+Use FacetGrid from the seaborn library to create a grid of 5 histograms of text length based off of the star ratings: g = sns.FacetGrid(yelp,col='stars'), g.map(plt.hist,'text length', bins=50)
+
+Create a boxplot of text length for each star category.
+
+Create a countplot of the number of occurrences for each type of star rating.
+
+Use the corr() method on that groupby dataframe to produce this dataframe.
+
+NLP Classification Task
+
+Using Text Processing and Using the Pipeline
+
+![5-Logo](Images/NLP-yelp-function.png)
+
+![6-Logo](Images/NLP-yelp-pipeline.png)
+
